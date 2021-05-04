@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Recursive:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(51, 182, 184, 0.6), rgba(0, 0, 0, 0.7)),
+    url(./images/gardenPic2.jpeg) center/cover no-repeat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+}
+.navbar .navLinks a{
+    text-decoration: none;
+    font-family: 'Recursive', sans-serif;
+    padding: 0.34rem;
+    font-size: 1.20rem;
+    color: white;
+}
+.navbar .logo img{
+    height: 80px;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content div img{
+    width: 30%;
+}
+
+.container .content,.secondContainer .content{
+    width: 50%;
+    color: white;
+}
+
+.container .content h1,.secondContainer .content h1{
+    font-family: 'Recursive', sans-serif;
+    font-size: 60px;
+    padding: 3%;
+}
+
+.container .content p,.secondContainer .content p{
+    font-family: 'Montserrat', sans-serif;
+    padding:2%;
+}
+
+.container .content .btnExplore{
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    background: transparent;
+    border: 0.6px solid white;
+    color: white;
+    padding: 15px 15px;
+    margin: 4%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container .content .btnExplore:hover{
+    transition: 0.4s;
+    color: #48cae4;
+    background-color: white;
+}
+
+.section {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;  
+}
+
+.section h1{
+    font-size: 40px;
+    font-family: 'Recursive', sans-serif;
+    color: #22223b;
+}
+
+.section h1 span{
+    color: #48cae4;
+}
+
+.AboutContainer{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: auto; */
+    margin: 2% 0;
+    padding: 5%;
+    border: 3px solid #40916c;
+    border-radius: 50px;
+}
+
+.card{
+    width: 450px;
+    display: flex;
+    padding: 5px;
+    border-radius: 0.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #40916c;
+}
+.card div img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 2% 0;
+}
+.card .cardContent {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutWork{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+}
+
+.analytics{
+    height: 10vh;
+    color: #fff;
+    font-family: 'Recursive', sans-serif;
+    background:#40414199;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+.analytics .cards{
+    text-align: center;
+}
+.analytics .cards div{
+    font-size: 20px;
+}
+.analytics .cards div i{
+    font-size: 45px;
+}
+
+.OfferContainer{
+    width: 70%;
+    padding: 5%;
+    margin: 4% 1%;
+    border: solid #40916c;
+    border-radius: 50px;  
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+.OfferContainer .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+}
+
+.OfferContainer .card{
+    width: 350px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OfferContainer .card .cardLogo img{
+    width: 100px;
+    height: 150px;
+    padding: 2% 0;
+}
+.OfferContainer .card .cardTitle{
+    padding: 2% 0;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.bg1{
+    background-color: rgba(64, 145, 108,0.7);
+    color: #fff;
+}
+
+.contactContainer{
+    width: 70%;
+    padding: 5%;
+    margin: 4% 1%;
+    border: solid #40916c;
+    border-radius: 50px;    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+}
+.circle i{
+    font-size: 60px;
+    padding: 4%;
+}
+.info{
+    display: flex;
+    margin: 3% 0;
+}
+.infoContent{
+    padding: 0 2%;
+    text-align: justify;
+}
+.infoContent h2{
+    padding: 2% 0;
+    font-size: 30px;
+    color: #fff;
+}
+.infoContent p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.25rem;
+}
+
+.sendMail{
+    width: 100%;
+    background: #fff;
+    border: dashed #40916c;
+    border-radius: 0.75rem;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sendMail h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #000;
+}
+
+.field input[type=text]{
+    margin: 4% 0;
+    padding: 4%;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 2px dashed;
+}
+
+.field textarea{
+    padding: 3%;
+    width: 91%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 2px dotted;
+}
+
+.field input[type=submit]{
+    margin: 2% 0;
+    padding: 3%;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.20rem;
+    background: #40916c;
+    border: 0.7px solid #fff;
+    color: #fff;
+}
+.field input[type=submit]:hover{
+    transition: 0.7s;
+    background: #fff;
+    border: 0.7px solid rgb(64, 145, 108);
+    color: #40916c;
+}
+#email{
+    letter-spacing: 0px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    letter-spacing: 2px;
+    min-height: 10vh;
+    padding:0 4%;
+    background-color: #40916c;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+}
+.scrollUp{
+    animation: scrollUp 1.5s ease infinite;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #2a9d8f;
+    border: transparent;
+    font-size: 35px;
+    border-radius: 0.35rem;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+}
+.scrollUp i{
+    padding: 8px;
+    color: #fff;
+}
+.fixed { 
+    position: fixed;
+    background-color: rgb(42, 157, 143);
+}
+.fixed .navLinks a{
+    color:  #fff;
+}
+.fixed .navLinks a:hover{
+    background-color: #48cae4;
+}
+
+@keyframes scrollUp{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 1800px){
+    .OfferContainer .container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .OfferContainer .card {
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .container .content h1,.secondContainer .content h1{
+        font-family: 'Recursive', sans-serif;
+        font-size: 40px;
+        padding: 3%;
+    }
+    .container .content,.secondContainer .content{
+        width: 100%;
+        color: white;
+    }
+    .aboutWork {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .OfferContainer .container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contactContainer {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sendMail {
+        width: 83%;
+    }
+    .infoCards{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .AboutContainer,.OfferContainer {
+        width: 80%;
+    }
+    .navbar .navLinks a{
+        font-size: 0.90rem;
+    }
+    .card, .OfferContainer .card  {
+        width: 248px;
+    }    
+    .card div img {
+        width: 150px;
+        height: 150px;
+    }
+    .card .cardContent {
+        padding: 11px;
+        font-size: 13px;
+    }
+    .analytics .cards div i {
+        font-size: 36px;
+    }
+    .analytics .cards div {
+        font-size: 14px;
+    }
+    .contactContainer {
+        width: 85%;
+    }
+    .sendMail{
+        margin: 0px 3%;
+    }
+    .infoContent p {
+        font-size: 17px;
+    }
+}
