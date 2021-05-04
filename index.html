@@ -173,15 +173,18 @@
                 </div>
                 <div class="sendMail">
                     <h2>Send Message</h2>
-                    <form>
+                    <form action="https://formsubmit.co/martinbinkley@gmail.com" method="POST" >
                         <div class="field">
-                            <input type="text" id="name" required="required" placeholder="Full Name">
+                            <input type="text" name="name" id="name" required="required" placeholder="Full Name">
                         </div>
                         <div class="field">
-                            <input type="text" id="email" required="required"  placeholder="Email">
+                            <input type="email" name="email" id="email" required="required"  placeholder="Email">
                         </div>
                         <div class="field">
-                            <textarea required="releases" id="message" placeholder="Type your message" cols="30" rows="10"></textarea>
+                            <input type="hidden" name="_next" value="https://martin-binkley.netlify.app/">
+                        </div>
+                        <div class="field">
+                            <textarea required="releases" name="message"  id="message" placeholder="Type your message" cols="30" rows="10"></textarea>
                         </div>
                         <div class="field">
                             <input type="submit" value="Send">
