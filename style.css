@@ -97,7 +97,7 @@ header{
 }
 
 .section h1{
-    font-size: 40px;
+    font-size: 37px;
     font-family: 'Recursive', sans-serif;
     color: #22223b;
 }
@@ -120,7 +120,7 @@ header{
 }
 
 .card{
-    width: 450px;
+    width: 400px;
     display: flex;
     padding: 5px;
     border-radius: 0.75rem;
