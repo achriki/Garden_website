@@ -271,6 +271,15 @@ header{
     border: 2px dashed;
 }
 
+.field input[type=email]{
+    margin: 4% 0;
+    padding: 4%;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 2px dashed;
+}
+
 .field textarea{
     padding: 3%;
     width: 91%;
